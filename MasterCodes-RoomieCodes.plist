@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+    <key>codes</key>
+    <dict>
+      <key>CURSOR ENTER</key>
+      <string>PUT /key/$AUTH1$/Select</string>
+      <key>CURSOR UP</key>
+      <string>PUT /key/$AUTH1$/Up</string>
+      <key>CURSOR DOWN</key>
+      <string>PUT /key/$AUTH1$/Down</string>
+      <key>CURSOR LEFT</key>
+      <string>PUT /key/$AUTH1$/Left</string>
+      <key>CURSOR RIGHT</key>
+      <string>PUT /key/$AUTH1$/Right</string>
+      <key>CURSOR RIGHTUP</key>
+      <string>PUT /key/$AUTH1$/RightUp</string>
+      <key>CURSOR RIGHTDOWN</key>
+      <string>PUT /key/$AUTH1$/RightDown</string>
+      <key>CURSOR LEFTUP</key>
+      <string>PUT /key/$AUTH1$/LeftUp</string>
+      <key>CURSOR LEFTDOWN</key>
+      <string>PUT /key/$AUTH1$/LeftDown</string>
+      <key>EXIT</key>
+      <string>PUT /key/$AUTH1$/Exit</string>
+      <key>DIGIT 0</key>
+      <string>PUT /key/$AUTH1$/0x20</string>
+      <key>DIGIT 1</key>
+      <string>PUT /key/$AUTH1$/0x21</string>
+      <key>DIGIT 2</key>
+      <string>PUT /key/$AUTH1$/0x22</string>
+      <key>DIGIT 3</key>
+      <string>PUT /key/$AUTH1$/0x23</string>
+      <key>DIGIT 4</key>
+      <string>PUT /key/$AUTH1$/0x24</string>
+      <key>DIGIT 5</key>
+      <string>PUT /key/$AUTH1$/0x25</string>
+      <key>DIGIT 6</key>
+      <string>PUT /key/$AUTH1$/0x26</string>
+      <key>DIGIT 7</key>
+      <string>PUT /key/$AUTH1$/0x27</string>
+      <key>DIGIT 8</key>
+      <string>PUT /key/$AUTH1$/0x28</string>
+      <key>DIGIT 9</key>
+      <string>PUT /key/$AUTH1$/0x29</string>
+      <key>DIGIT SEPARATOR</key>
+      <string>PUT /key/$AUTH1$/Dot</string>
+      <key>DIGIT ENTER</key>
+      <string>PUT /key/$AUTH1$/Enter</string>
+      <key>CHANNEL UP</key>
+      <string>PUT /key/$AUTH1$/ChannelUp</string>
+      <key>CHANNEL DOWN</key>
+      <string>PUT /key/$AUTH1$/ChannelDown</string>
+      <key>PREVIOUS CHANNEL</key>
+      <string>PUT /key/$AUTH1$/PreviousChannel</string>
+      <key>INPUT TOGGLE</key>
+      <string>PUT /key/$AUTH1$/InputSelect</string>
+      <key>INPUT HDMI 1</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:10:00"]
+      </string>
+      <key>INPUT HDMI 2</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:20:00"]
+      </string>
+      <key>INPUT HDMI 3</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:30:00"]
+      </string>
+      <key>INPUT HDMI 4</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:40:00"]
+      </string>
+      <key>INPUT HDMI 5</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:50:00"]
+      </string>
+      <key>INPUT HDMI 6</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:60:00"]
+      </string>
+      <key>INPUT HDMI 7</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:70:00"]
+      </string>
+      <key>INPUT HDMI 8</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:80:00"]
+      </string>
+      <key>INPUT HDMI 9</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:90:00"]
+      </string>
+      <key>POWER</key>
+      <string>PUT /key/$AUTH1$/Power</string>
+      <key>VOLUME UP</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>VOLUME DOWN</key>
+      <string>PUT /key/$AUTH1$/VolumeDown</string>
+      <key>MUTE ON</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>MUTE TOGGLE</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>PLAY</key>
+      <string>PUT /key/$AUTH1$/Play</string>
+      <key>STOP</key>
+      <string>PUT /key/$AUTH1$/Stop</string>
+      <key>PAUSE</key>
+      <string>PUT /key/$AUTH1$/Pause</string>
+      <key>RECORD</key>
+      <string>PUT /key/$AUTH1$/Record</string>
+      <key>REVERSE</key>
+      <string>PUT /key/$AUTH1$/Rewind</string>
+      <key>FAST FORWARD</key>
+      <string>PUT /key/$AUTH1$/FastForward</string>
+      <key>FORWARD</key>
+      <string>PUT /key/$AUTH1$/Forward</string>
+      <key>MUTE OFF</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>POWER TOGGLE</key>
+      <string>PUT /key/$AUTH1$/PowerToggle</string>
+      <key>POWER OFF</key>
+      <string>PUT /key/$AUTH1$/PowerOff</string>
+      <key>POWER ON</key>
+      <string>PUT /key/$AUTH1$/PowerOn</string>
+      <key>FUNCTION BLUE</key>
+      <string>PUT /key/$AUTH1$/Blue</string>
+      <key>FUNCTION RED</key>
+      <string>PUT /key/$AUTH1$/Red</string>
+      <key>FUNCTION GREEN</key>
+      <string>PUT /key/$AUTH1$/Green</string>
+      <key>FUNCTION YELLOW</key>
+      <string>PUT /key/$AUTH1$/Yellow</string>
+      <key>PLAY PAUSE TOGGLE</key>
+      <string>PUT /key/$AUTH1$/PausePlay</string>
+      <key>Eject</key>
+      <string>PUT /key/$AUTH1$/Eject</string>
+      <key>Backward</key>
+      <string>PUT /key/$AUTH1$/Backward</string>
+      <key>Stop-Record</key>
+      <string>PUT /key/$AUTH1$/StopRecord</string>
+      <key>Pause-Record</key>
+      <string>PUT /key/$AUTH1$/PauseRecord</string>
+      <key>Angle</key>
+      <string>PUT /key/$AUTH1$/Angle</string>
+      <key>Sub Picture</key>
+      <string>PUT /key/$AUTH1$/SubPicture</string>
+      <key>Video On Demand</key>
+      <string>PUT /key/$AUTH1$/VideoOnDemand</string>
+      <key>GUIDE</key>
+      <string>PUT /key/$AUTH1$/ElectronicProgramGuide</string>
+      <key>Timer Programming</key>
+      <string>PUT /key/$AUTH1$/TimerProgramming</string>
+      <key>Initial Configuration</key>
+      <string>PUT /key/$AUTH1$/InitialConfiguration</string>
+      <key>Play Function</key>
+      <string>PUT /key/$AUTH1$/PlayFunction</string>
+      <key>Record Function</key>
+      <string>PUT /key/$AUTH1$/RecordFunction</string>
+      <key>Pause Record Function</key>
+      <string>PUT /key/$AUTH1$/PauseRecordFunction</string>
+      <key>Stop Function</key>
+      <string>PUT /key/$AUTH1$/StopFunction</string>
+      <key>Tune Function</key>
+      <string>PUT /key/$AUTH1$/Tune</string>
+      <key>MEDIA TOGGLE</key>
+      <string>PUT /key/$AUTH1$/SelectMedia</string>
+      <key>SelectAvInput</key>
+      <string>PUT /key/$AUTH1$/SelectAvInput</string>
+      <key>AUDIO INPUT TOGGLE</key>
+      <string>PUT /key/$AUTH1$/SelectAudioInput</string>
+      <key>Function 5</key>
+      <string>PUT /key/$AUTH1$/F5</string>
+      <key>Max</key>
+      <string>PUT /key/$AUTH1$/Max</string>
+      <key>Sound Select</key>
+      <string>PUT /key/$AUTH1$/SoundSelect</string>
+      <key>INFO</key>
+      <string>PUT /key/$AUTH1$/DisplayInformation</string>
+      <key>Help</key>
+      <string>PUT /key/$AUTH1$/Help</string>
+      <key>PAGE UP</key>
+      <string>PUT /key/$AUTH1$/PageUp</string>
+      <key>PAGE DOWN</key>
+      <string>PUT /key/$AUTH1$/PageDown</string>
+      <key>CLEAR</key>
+      <string>PUT /key/$AUTH1$/Clear</string>
+      <key>Next Favorite</key>
+      <string>PUT /key/$AUTH1$/NextFavorite</string>
+      <key>Root Menu</key>
+      <string>PUT /key/$AUTH1$/RootMenu</string>
+      <key>Setup Menu</key>
+      <string>PUT /key/$AUTH1$/SetupMenu</string>
+      <key>Contents Menu</key>
+      <string>PUT /key/$AUTH1$/ContentsMenu</string>
+      <key>Favorite Menu</key>
+      <string>PUT /key/$AUTH1$/FavoriteMenu</string>
+      <key>.AUTH 1 FORMAT</key>
+      <string>Device Identifier</string>
+    </dict>
+    <key>method</key>
+    <string>http</string>
+    <key>brand</key>
+    <string>Go</string>
+    <key>cat</key>
+    <string>TV (cec-web)</string>
+    <key>type</key>
+    <integer>23</integer>
+  </dict>
+  <dict>
+    <key>codes</key>
+    <dict>
+      <key>CURSOR ENTER</key>
+      <string>PUT /key/$AUTH1$/Select</string>
+      <key>CURSOR UP</key>
+      <string>PUT /key/$AUTH1$/Up</string>
+      <key>CURSOR DOWN</key>
+      <string>PUT /key/$AUTH1$/Down</string>
+      <key>CURSOR LEFT</key>
+      <string>PUT /key/$AUTH1$/Left</string>
+      <key>CURSOR RIGHT</key>
+      <string>PUT /key/$AUTH1$/Right</string>
+      <key>CURSOR RIGHTUP</key>
+      <string>PUT /key/$AUTH1$/RightUp</string>
+      <key>CURSOR RIGHTDOWN</key>
+      <string>PUT /key/$AUTH1$/RightDown</string>
+      <key>CURSOR LEFTUP</key>
+      <string>PUT /key/$AUTH1$/LeftUp</string>
+      <key>CURSOR LEFTDOWN</key>
+      <string>PUT /key/$AUTH1$/LeftDown</string>
+      <key>EXIT</key>
+      <string>PUT /key/$AUTH1$/Exit</string>
+      <key>DIGIT 0</key>
+      <string>PUT /key/$AUTH1$/0x20</string>
+      <key>DIGIT 1</key>
+      <string>PUT /key/$AUTH1$/0x21</string>
+      <key>DIGIT 2</key>
+      <string>PUT /key/$AUTH1$/0x22</string>
+      <key>DIGIT 3</key>
+      <string>PUT /key/$AUTH1$/0x23</string>
+      <key>DIGIT 4</key>
+      <string>PUT /key/$AUTH1$/0x24</string>
+      <key>DIGIT 5</key>
+      <string>PUT /key/$AUTH1$/0x25</string>
+      <key>DIGIT 6</key>
+      <string>PUT /key/$AUTH1$/0x26</string>
+      <key>DIGIT 7</key>
+      <string>PUT /key/$AUTH1$/0x27</string>
+      <key>DIGIT 8</key>
+      <string>PUT /key/$AUTH1$/0x28</string>
+      <key>DIGIT 9</key>
+      <string>PUT /key/$AUTH1$/0x29</string>
+      <key>DIGIT SEPARATOR</key>
+      <string>PUT /key/$AUTH1$/Dot</string>
+      <key>DIGIT ENTER</key>
+      <string>PUT /key/$AUTH1$/Enter</string>
+      <key>CHANNEL UP</key>
+      <string>PUT /key/$AUTH1$/ChannelUp</string>
+      <key>CHANNEL DOWN</key>
+      <string>PUT /key/$AUTH1$/ChannelDown</string>
+      <key>PREVIOUS CHANNEL</key>
+      <string>PUT /key/$AUTH1$/PreviousChannel</string>
+      <key>INPUT TOGGLE</key>
+      <string>PUT /key/$AUTH1$/InputSelect</string>
+      <key>INPUT HDMI 1</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:10:00"]
+      </string>
+      <key>INPUT HDMI 2</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:20:00"]
+      </string>
+      <key>INPUT HDMI 3</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:30:00"]
+      </string>
+      <key>INPUT HDMI 4</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:40:00"]
+      </string>
+      <key>INPUT HDMI 5</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:50:00"]
+      </string>
+      <key>INPUT HDMI 6</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:60:00"]
+      </string>
+      <key>INPUT HDMI 7</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:70:00"]
+      </string>
+      <key>INPUT HDMI 8</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:80:00"]
+      </string>
+      <key>INPUT HDMI 9</key>
+      <string>POST /transmit
+        Content-type: application/json
+
+        ["3f:82:90:00"]
+      </string>
+      <key>POWER</key>
+      <string>PUT /key/$AUTH1$/Power</string>
+      <key>VOLUME UP</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>VOLUME DOWN</key>
+      <string>PUT /key/$AUTH1$/VolumeDown</string>
+      <key>MUTE ON</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>MUTE TOGGLE</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>PLAY</key>
+      <string>PUT /key/$AUTH1$/Play</string>
+      <key>STOP</key>
+      <string>PUT /key/$AUTH1$/Stop</string>
+      <key>PAUSE</key>
+      <string>PUT /key/$AUTH1$/Pause</string>
+      <key>RECORD</key>
+      <string>PUT /key/$AUTH1$/Record</string>
+      <key>REVERSE</key>
+      <string>PUT /key/$AUTH1$/Rewind</string>
+      <key>FAST FORWARD</key>
+      <string>PUT /key/$AUTH1$/FastForward</string>
+      <key>FORWARD</key>
+      <string>PUT /key/$AUTH1$/Forward</string>
+      <key>MUTE OFF</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>POWER TOGGLE</key>
+      <string>PUT /key/$AUTH1$/PowerToggle</string>
+      <key>POWER OFF</key>
+      <string>PUT /key/$AUTH1$/PowerOff</string>
+      <key>POWER ON</key>
+      <string>PUT /key/$AUTH1$/PowerOn</string>
+      <key>FUNCTION BLUE</key>
+      <string>PUT /key/$AUTH1$/Blue</string>
+      <key>FUNCTION RED</key>
+      <string>PUT /key/$AUTH1$/Red</string>
+      <key>FUNCTION GREEN</key>
+      <string>PUT /key/$AUTH1$/Green</string>
+      <key>FUNCTION YELLOW</key>
+      <string>PUT /key/$AUTH1$/Yellow</string>
+      <key>PLAY PAUSE TOGGLE</key>
+      <string>PUT /key/$AUTH1$/PausePlay</string>
+      <key>Eject</key>
+      <string>PUT /key/$AUTH1$/Eject</string>
+      <key>Backward</key>
+      <string>PUT /key/$AUTH1$/Backward</string>
+      <key>Stop-Record</key>
+      <string>PUT /key/$AUTH1$/StopRecord</string>
+      <key>Pause-Record</key>
+      <string>PUT /key/$AUTH1$/PauseRecord</string>
+      <key>Angle</key>
+      <string>PUT /key/$AUTH1$/Angle</string>
+      <key>Sub Picture</key>
+      <string>PUT /key/$AUTH1$/SubPicture</string>
+      <key>Video On Demand</key>
+      <string>PUT /key/$AUTH1$/VideoOnDemand</string>
+      <key>GUIDE</key>
+      <string>PUT /key/$AUTH1$/ElectronicProgramGuide</string>
+      <key>Timer Programming</key>
+      <string>PUT /key/$AUTH1$/TimerProgramming</string>
+      <key>Initial Configuration</key>
+      <string>PUT /key/$AUTH1$/InitialConfiguration</string>
+      <key>Play Function</key>
+      <string>PUT /key/$AUTH1$/PlayFunction</string>
+      <key>Record Function</key>
+      <string>PUT /key/$AUTH1$/RecordFunction</string>
+      <key>Pause Record Function</key>
+      <string>PUT /key/$AUTH1$/PauseRecordFunction</string>
+      <key>Stop Function</key>
+      <string>PUT /key/$AUTH1$/StopFunction</string>
+      <key>Tune Function</key>
+      <string>PUT /key/$AUTH1$/Tune</string>
+      <key>MEDIA TOGGLE</key>
+      <string>PUT /key/$AUTH1$/SelectMedia</string>
+      <key>SelectAvInput</key>
+      <string>PUT /key/$AUTH1$/SelectAvInput</string>
+      <key>AUDIO INPUT TOGGLE</key>
+      <string>PUT /key/$AUTH1$/SelectAudioInput</string>
+      <key>Function 5</key>
+      <string>PUT /key/$AUTH1$/F5</string>
+      <key>Max</key>
+      <string>PUT /key/$AUTH1$/Max</string>
+      <key>Sound Select</key>
+      <string>PUT /key/$AUTH1$/SoundSelect</string>
+      <key>INFO</key>
+      <string>PUT /key/$AUTH1$/DisplayInformation</string>
+      <key>Help</key>
+      <string>PUT /key/$AUTH1$/Help</string>
+      <key>PAGE UP</key>
+      <string>PUT /key/$AUTH1$/PageUp</string>
+      <key>PAGE DOWN</key>
+      <string>PUT /key/$AUTH1$/PageDown</string>
+      <key>CLEAR</key>
+      <string>PUT /key/$AUTH1$/Clear</string>
+      <key>Next Favorite</key>
+      <string>PUT /key/$AUTH1$/NextFavorite</string>
+      <key>Root Menu</key>
+      <string>PUT /key/$AUTH1$/RootMenu</string>
+      <key>Setup Menu</key>
+      <string>PUT /key/$AUTH1$/SetupMenu</string>
+      <key>Contents Menu</key>
+      <string>PUT /key/$AUTH1$/ContentsMenu</string>
+      <key>Favorite Menu</key>
+      <string>PUT /key/$AUTH1$/FavoriteMenu</string>
+      <key>.AUTH 1 FORMAT</key>
+      <string>Device Identifier</string>
+    </dict>
+    <key>method</key>
+    <string>http</string>
+    <key>brand</key>
+    <string>cec-web</string>
+    <key>cat</key>
+    <string>All Options</string>
+    <key>type</key>
+    <integer>1</integer>
+  </dict>
+</array>
+</plist>
