@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+    <key>codes</key>
+    <dict>
+      <key>CURSOR ENTER</key>
+      <string>PUT /key/$AUTH1$/Select</string>
+      <key>CURSOR UP</key>
+      <string>PUT /key/$AUTH1$/Up</string>
+      <key>CURSOR DOWN</key>
+      <string>PUT /key/$AUTH1$/Down</string>
+      <key>CURSOR LEFT</key>
+      <string>PUT /key/$AUTH1$/Left</string>
+      <key>CURSOR RIGHT</key>
+      <string>PUT /key/$AUTH1$/Right</string>
+      <key>EXIT</key>
+      <string>PUT /key/$AUTH1$/Exit</string>
+      <key>POWER</key>
+      <string>PUT /key/$AUTH1$/Power</string>
+      <key>VOLUME UP</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>VOLUME DOWN</key>
+      <string>PUT /key/$AUTH1$/VolumeDown</string>
+      <key>MUTE ON</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>MUTE OFF</key>
+      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <key>MUTE TOGGLE</key>
+      <string>PUT /key/$AUTH1$/0x43</string>
+      <key>POWER TOGGLE</key>
+      <string>PUT /key/$AUTH1$/PowerToggle</string>
+      <key>POWER OFF</key>
+      <string>PUT /key/$AUTH1$/PowerOff</string>
+      <key>POWER ON</key>
+      <string>PUT /key/$AUTH1$/PowerOn</string>
+      <key>EJECT</key>
+      <string>PUT /key/$AUTH1$/Eject</string>
+      <key>HOME</key>
+      <string>PUT /key/$AUTH1$/RootMenu</string>
+      <key>OPTIONS</key>
+      <string>PUT /key/$AUTH1$/SetupMenu</string>
+      <key>.AUTH 1 FORMAT</key>
+      <string>Device Identifier</string>
+    </dict>
+    <key>method</key>
+    <string>http</string>
+    <key>brand</key>
+    <string>Sony</string>
+    <key>cat</key>
+    <string>PlayStation 4</string>
+    <key>type</key>
+    <integer>8</integer>
+  </dict>
+</array>
+</plist>
