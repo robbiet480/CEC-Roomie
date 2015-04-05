@@ -22,18 +22,10 @@ You need a few things to get started:
 
 ## Caveats
 - The device you want to control must support HDMI-CEC. While CEC is a standard, many manufacturers choose to implement it in their own way, so one command may work differently or not at all between two devices. You also need to have CEC support enabled on your devices. No one seems to call CEC by it's actual name, so if you are looking around for the setting to enable it and can't find it, there is a [handy list of each manufacturer's trade name for HDMI-CEC](#hdmi-cec-trade-name-list). You should only need to turn it on.
-- Currently, [cec.go][cec.go] will always start up and identify as a Recording device. This provides a different set of functionality from what another device type, like tuner, would provide. Other devices in the CEC network will also expect your device to respond proprely to recording commands if your bridge device is the currently selected source. You can change the reported device type by following the below instructions.
-  1. In your `$GOPATH` you should find `github.com/chbmuc/cec/`. Go to the folder and open the `libcec.go` file for editing.
-  2. On [line 70][libcec.go] you'll find the constant currently set to `CEC_DEVICE_TYPE_RECORDING_DEVICE`. You can change this to [any of the libcec device type constants][cectypes.h]. I used `CEC_DEVICE_TYPE_TUNER` to build my property lists, as it seems to be the best "fit" for the hack that this is.
-  3. Save the file and exit
-  4. Go back to where you cloned the cec-web repository and rebuild the application.
-  5. Now when you run it, your device will appear to the other devices in the CEC network as the type you chose.
-I did submit [an issue][cec-go-issue] about this and hope to hear back soon.
-
 
 ## Steps to get running with the Master Code list
 1. Make sure you meet all the requirements
-2. Download and build [cec-web][cec-web]
+2. Download and build my [cec-web][robbiet480-cec-web] fork
   1. Clone the repository
   2. Run `go get`
   3. Run `go build cec-web.go`
@@ -185,6 +177,7 @@ MIT
 
 [Roomie]: http://roomieremote.com
 [cec-web]: https://github.com/chbmuc/cec-web
+[robbiet480-cec-web]: https://github.com/robbiet480/cec-web
 [chbmuc]: http://github.com/chbmuc
 [cec.go]: https://github.com/chbmuc/cec
 [jasmas-post]: http://www.roomieremote.com/forums/topic/chromecast-hdmi-cec-to-power-on-samsung-tv/#post-16109

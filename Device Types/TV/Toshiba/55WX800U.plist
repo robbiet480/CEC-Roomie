@@ -145,6 +145,8 @@
       <string>PUT /key/$AUTH1$/PageDown</string>
       <key>.AUTH 1 FORMAT</key>
       <string>Device Identifier</string>
+      <key>.CHANNEL SET</key>
+      <string>PUT /channel/$AUTH1$/##</string>
     </dict>
     <key>method</key>
     <string>http</string>
