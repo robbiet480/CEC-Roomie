@@ -33,6 +33,8 @@
       <string>PUT /key/$AUTH1$/SetupMenu</string>
       <key>.AUTH 1 FORMAT</key>
       <string>Device Identifier</string>
+      <key>.KEY SEND</key>
+      <string>PUT /key/$AUTH1$/##</string>
     </dict>
     <key>method</key>
     <string>http</string>

@@ -54,6 +54,8 @@ I've added two of my own code sets in this repository already, one for a Sony Pl
 ## Adding custom CEC commands
 All of the commands that are in the MasterCodes file are for the User Button Pressed function in the CEC spec, but you can also add raw CEC commands that will be passed through directly. You can see that's how I build the INPUT HDMI commands out. Just copy the same format into a new command. You can also of course add any of the other endpoints that [cec-web]() has to offer.
 
+As an alternative to building your own code set entirely, you can use `.KEY SEND` to send a custom key code that may not be listed in MasterCodes, i.e. if there is a vendor specific code that does what you need, you can use `.KEY SEND` and put the correct hex code in as the parameter. The valid hex codes are listed in the [HDMI-CEC specs][cec-specs] on page 95 (titled _CEC Table 27 User Control Codes_). You can also generate them from [CEC-O-Matic][cec-o-matic].
+
 ## Finding your device identifiers
 In the code sets, `$AUTH1$` is used to allow you to use one generic code set for any device type. It expects a device identifier to be given as the authentication info (although this is really just a hack, as we don't use it for auth)
 To get a list of all of your devices and their identifiers:

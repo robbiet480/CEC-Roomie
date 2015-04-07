@@ -219,6 +219,8 @@
       <string>Device Identifier</string>
       <key>.CHANNEL SET</key>
       <string>PUT /channel/$AUTH1$/##</string>
+      <key>.KEY SEND</key>
+      <string>PUT /key/$AUTH1$/##</string>
     </dict>
     <key>method</key>
     <string>http</string>
