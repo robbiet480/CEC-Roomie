@@ -56,59 +56,23 @@
       <key>INPUT TOGGLE</key>
       <string>PUT /key/$AUTH1$/InputSelect</string>
       <key>INPUT HDMI 1</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:10:00"]
-      </string>
+      <string>PUT /input/1</string>
       <key>INPUT HDMI 2</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:20:00"]
-      </string>
+      <string>PUT /input/2</string>
       <key>INPUT HDMI 3</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:30:00"]
-      </string>
+      <string>PUT /input/3</string>
       <key>INPUT HDMI 4</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:40:00"]
-      </string>
+      <string>PUT /input/4</string>
       <key>INPUT HDMI 5</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:50:00"]
-      </string>
+      <string>PUT /input/5</string>
       <key>INPUT HDMI 6</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:60:00"]
-      </string>
+      <string>PUT /input/6</string>
       <key>INPUT HDMI 7</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:70:00"]
-      </string>
+      <string>PUT /input/7</string>
       <key>INPUT HDMI 8</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:80:00"]
-      </string>
+      <string>PUT /input/8</string>
       <key>INPUT HDMI 9</key>
-      <string>POST /transmit
-        Content-type: application/json
-
-        ["3f:82:90:00"]
-      </string>
+      <string>PUT /input/9</string>
       <key>POWER</key>
       <string>PUT /key/$AUTH1$/Power</string>
       <key>VOLUME UP</key>
@@ -145,10 +109,20 @@
       <string>PUT /key/$AUTH1$/PageDown</string>
       <key>.AUTH 1 FORMAT</key>
       <string>Device Identifier</string>
-      <key>.CHANNEL SET</key>
-      <string>PUT /channel/$AUTH1$/##</string>
+      <key>.STEP VOLUME</key>
+      <string>PUT /volume/step/##/$$</string>
       <key>.KEY SEND</key>
       <string>PUT /key/$AUTH1$/##</string>
+      <key>.CHANNEL SET</key>
+      <string>PUT /channel/$AUTH1$/##</string>
+      <key>.INPUT STATUS</key>
+      <string>GET /input</string>
+      <key>.VOLUME SET</key>
+      <string>PUT /volume/set/##</string>
+      <key>.VOLUME STATUS</key>
+      <string>GET /volume</string>
+      <key>.POWER STATUS</key>
+      <string>GET /power/$AUTH1$</string>
     </dict>
     <key>method</key>
     <string>http</string>
