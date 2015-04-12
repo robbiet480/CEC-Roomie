@@ -82,7 +82,7 @@
       <key>MUTE ON</key>
       <string>PUT /key/$AUTH1$/0x43</string>
       <key>MUTE OFF</key>
-      <string>PUT /key/$AUTH1$/VolumeUp</string>
+      <string>PUT /multikey/$AUTH1$/VolumeUp/0/VolumeDown</string>
       <key>MUTE TOGGLE</key>
       <string>PUT /key/$AUTH1$/0x43</string>
       <key>POWER TOGGLE</key>
