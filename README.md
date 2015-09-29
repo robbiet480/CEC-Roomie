@@ -34,7 +34,7 @@ You need a few things to get started:
 5. Copy MasterCodes-RoomieCodes.property list to the folder that Roomie syncs to/from. For me, it's at `~/Dropbox/Roomie`.
 6. Rename it to RoomieCodes.property list
 7. Open Roomie on your device and restore from Dropbox, or use the Roomie Agent to restore the configuration
-8. Now, you'll be able to add a new device. The master codes list is set to appear as an Auxilary device with a manufacturer name of cec-web.
+8. Now, you'll be able to add a new device. The master codes list is set to appear as an Auxiliary device with a manufacturer name of cec-web.
 9. After selecting the All Options device, Roomie will ask you for the IP address and Port number to use. By default, `cec-web` starts on port `8080`.
 10. After pressing done, you'll see the device screen. You need to go all the way down to the bottom and put in the device identifier for the device you want to control. See the section about [finding your device identifier](#finding-your-device-identifiers) below.
 10. Hit Done and test it out! Everything should work!
